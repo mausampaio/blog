@@ -3,7 +3,7 @@
 Blog pessoal estático, feito com [Hugo](https://gohugo.io/) e o tema
 [PaperMod](https://github.com/adityatelange/hugo-PaperMod), publicado no GitHub Pages.
 
-- **Produção:** https://mausampaio.github.io/blog/
+- **Produção:** https://mausampaio.com/
 - **Idiomas:** Português (padrão, na raiz) e Inglês (em `/en/`)
 
 ## Requisitos
@@ -16,7 +16,7 @@ No Windows: `winget install Hugo.Hugo.Extended`
 ## Rodando localmente
 
 ```bash
-git clone --recurse-submodules git@github.com:mausampaio/blog.git
+git clone --recurse-submodules https://github.com/mausampaio/blog.git
 cd blog
 hugo server -D
 ```
@@ -105,3 +105,21 @@ no GitHub Pages.
 
 **Configuração necessária uma única vez:** no repositório, vá em
 *Settings → Pages → Build and deployment* e mude **Source** para **GitHub Actions**.
+
+### Domínio próprio
+
+O site é servido em `mausampaio.com`. O DNS é gerenciado na GoDaddy e aponta para o
+GitHub Pages:
+
+| Tipo | Nome | Valor |
+|---|---|---|
+| A | `@` | `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` |
+| AAAA | `@` | `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153` |
+| CNAME | `www` | `mausampaio.github.io.` |
+
+O domínio também está registrado em *Settings → Pages → Custom domain*, com
+**Enforce HTTPS** ligado. O arquivo [`static/CNAME`](static/CNAME) mantém o domínio
+versionado junto do site.
+
+> O `baseURL` em `config/_default/hugo.toml` vale para builds locais. No CI, o workflow
+> passa `--baseURL` com a URL que o GitHub Pages reporta, então os dois se mantêm em sincronia.
