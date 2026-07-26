@@ -1,0 +1,26 @@
+# URLs sem barra inicial de propósito — ver comentário em menus.pt-br.toml.
+
+[[main]]
+name = "Posts"
+url = "posts/"
+weight = 10
+
+[[main]]
+name = "Tags"
+url = "tags/"
+weight = 20
+
+[[main]]
+name = "Archive"
+url = "archives/"
+weight = 30
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 40
+
+[[main]]
+name = "Search"
+url = "search/"
+weight = 50

@@ -1,0 +1,38 @@
+baseURL = "https://mausampaio.github.io/blog/"
+title = "Mau Sampaio"
+theme = "PaperMod"
+
+defaultContentLanguage = "pt-br"
+defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Gera o index.json usado pela busca do PaperMod
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+pagerSize = 10
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "monokai"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"

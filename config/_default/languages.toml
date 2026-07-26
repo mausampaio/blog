@@ -1,0 +1,29 @@
+[pt-br]
+label = "Português"
+locale = "pt-BR"
+contentDir = "content/pt-br"
+weight = 1
+title = "Mauricio Sampaio"
+
+  [pt-br.params]
+  description = "Blog pessoal sobre desenvolvimento, tecnologia e o que mais aparecer."
+  keywords = ["blog", "desenvolvimento", "tecnologia"]
+
+    [pt-br.params.homeInfoParams]
+    Title = "Olá 👋"
+    Content = "Bem-vindo ao meu canto da internet. Escrevo sobre desenvolvimento de software, tecnologia e as coisas que ando aprendendo."
+
+[en]
+label = "English"
+locale = "en-US"
+contentDir = "content/en"
+weight = 2
+title = "Mauricio Sampaio"
+
+  [en.params]
+  description = "Personal blog about software development, technology and whatever else comes up."
+  keywords = ["blog", "development", "technology"]
+
+    [en.params.homeInfoParams]
+    Title = "Hi 👋"
+    Content = "Welcome to my corner of the internet. I write about software development, technology and the things I'm learning."

@@ -1,0 +1,22 @@
+# Build do Hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Locks e caches
+/.cache/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.idea/
+*.swp
+*~
+
+# Configuração local do Claude Code
+.claude/settings.local.json

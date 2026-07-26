@@ -1,0 +1,56 @@
+# env = "production" habilita analytics/SEO extras do PaperMod
+env = "production"
+author = "Mauricio Sampaio"
+DateFormat = "2 January 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+TocOpen = false
+hidemeta = false
+hideSummary = false
+comments = false
+
+# O texto da home (homeInfoParams) fica em languages.toml, por idioma.
+
+[label]
+text = "Mauricio Sampaio"
+icon = "/favicon.ico"
+iconHeight = 24
+
+[assets]
+disableHLJS = true
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+
+[cover]
+linkFullImages = true
+responsiveImages = true
+
+# Busca — o fastsearch.js do PaperMod usa Fuse.js
+[fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+# Arrays de tabela por último, para não "engolir" as tabelas seguintes
+[[socialIcons]]
+name = "github"
+url = "https://github.com/mausampaio"
+
+[[socialIcons]]
+name = "rss"
+url = "index.xml"

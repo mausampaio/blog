@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Force c:\\\\code\\\\blog; Write-Output \"---HUGO---\"; \\(Get-Command hugo -ErrorAction SilentlyContinue\\).Source; hugo version; Write-Output \"---GIT---\"; git --version; Write-Output \"---GO---\"; go version)",
+      "PowerShell(foreach \\($c in 'winget','scoop','choco'\\) { $p = \\(Get-Command $c -ErrorAction SilentlyContinue\\).Source; if \\($p\\) { \"$c : $p\" } else { \"$c : NAO ENCONTRADO\" } }; \"---\"; \"gh: \" + \\(Get-Command gh -ErrorAction SilentlyContinue\\).Source)",
+      "PowerShell(winget install --id Hugo.Hugo.Extended --exact --silent --accept-source-agreements --accept-package-agreements)",
+      "PowerShell($env:Path = [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"Path\",\"User\"\\); hugo version)",
+      "PowerShell(\"hugo.toml da raiz removido\")",
+      "PowerShell(git -C c:\\\\code\\\\blog restore --staged .claude/settings.local.json)",
+      "PowerShell(git -C c:\\\\code\\\\blog add -A)",
+      "PowerShell(git -C c:\\\\code\\\\blog commit -q -F \"C:\\\\Users\\\\mausa\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--code-blog\\\\7b5e8c0d-eee0-47a4-b591-6c25e7ec6ce7\\\\scratchpad\\\\commitmsg.txt\")",
+      "PowerShell(git -C c:\\\\code\\\\blog log --oneline)",
+      "Powe

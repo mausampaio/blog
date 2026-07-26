@@ -1,0 +1,28 @@
+# URLs sem barra inicial de propósito: o tema passa .URL por `absLangURL`, e um
+# caminho iniciado com "/" seria resolvido a partir do host, perdendo o subpath
+# "/blog/" do baseURL. Sem a barra, resolve corretamente como baseURL + idioma + caminho.
+
+[[main]]
+name = "Posts"
+url = "posts/"
+weight = 10
+
+[[main]]
+name = "Tags"
+url = "tags/"
+weight = 20
+
+[[main]]
+name = "Arquivo"
+url = "archives/"
+weight = 30
+
+[[main]]
+name = "Sobre"
+url = "sobre/"
+weight = 40
+
+[[main]]
+name = "Buscar"
+url = "search/"
+weight = 50
