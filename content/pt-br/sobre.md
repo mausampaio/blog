@@ -8,7 +8,8 @@ ShowShareButtons: false
 hidemeta: true
 ---
 
-Olá! Eu sou o Maurício Sampaio, líder técnico e desenvolvedor, morando em Florianópolis.
+Olá! Eu sou o Maurício Sampaio, desenvolvedor sênior e líder técnico, morando em
+Florianópolis.
 
 ## Comecei pelo outro lado
 
@@ -23,8 +24,18 @@ duas vezes acabou virando a ponte natural para o desenvolvimento de software.
 
 ## E então mudei de lado
 
-Em 2021 recomecei do zero, como trainee numa empresa de software em Florianópolis. Sete
-meses depois assumi como desenvolvedor e, em 2023, a liderança técnica de um time.
+Quando vim para Florianópolis, em 2020, já estava em transição de carreira, estudando
+programação. Foi aqui que ela se concretizou: entrei no DevInHouse, programa de formação
+do SENAI em parceria com uma empresa de software. Ao final do curso, depois de um processo
+seletivo, dez de nós fomos contratados.
+
+Entrei como trainee em junho de 2021. De lá para cá subi todos os degraus — júnior, pleno
+e, desde 2024, sênior. Em 2023 assumi também a liderança técnica do time, que por lá é um
+papel e não um cargo: na carteira, sigo desenvolvedor.
+
+Em 2022 o ciclo se fechou de um jeito que eu não esperava: voltei ao DevInHouse como
+professor, dando a matéria de Java para uma nova turma. Um ano antes, eu estava do outro
+lado daquela sala.
 
 Hoje meus dias são uma mistura de arquitetura de software, decisões técnicas, mentoria e
 tradução — no sentido literal: transformar necessidade de negócio em solução técnica, e

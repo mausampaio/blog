@@ -8,7 +8,7 @@ ShowShareButtons: false
 hidemeta: true
 ---
 
-Hi! I'm Maurício Sampaio, a tech lead and developer based in Florianópolis, Brazil.
+Hi! I'm Maurício Sampaio, a senior developer and tech lead based in Florianópolis, Brazil.
 
 ## I started on the other side
 
@@ -23,9 +23,18 @@ twice turned out to be the natural bridge into software development.
 
 ## Then I switched sides
 
-In 2021 I started over as a trainee at a software company in Florianópolis. Seven months
-later I moved into a developer role, and in 2023 I took over the technical leadership of a
-team.
+When I moved to Florianópolis in 2020, I was already in the middle of a career change,
+studying programming. That's where it came together: I joined DevInHouse, a training
+program run by SENAI in partnership with a software company. At the end of the course,
+after a selection process, ten of us were hired.
+
+I joined as a trainee in June 2021. Since then I've climbed every rung — junior, mid-level
+and, since 2024, senior. In 2023 I also took on the team's technical leadership, which
+there is a role rather than a job title: on paper, I'm still a developer.
+
+In 2022 the circle closed in a way I hadn't expected: I went back to DevInHouse as a
+teacher, covering the Java module for a new cohort. A year earlier, I had been on the
+other side of that classroom.
 
 These days my work is a mix of software architecture, technical decisions, mentoring and
 translation — in the literal sense: turning business needs into technical solutions, and

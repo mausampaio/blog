@@ -11,7 +11,7 @@ title = "Maurício Sampaio"
 
     [pt-br.params.homeInfoParams]
     Title = "Olá, eu sou o Maurício 👋"
-    Content = "Tech lead em Florianópolis, trabalhando com **Java** e **Spring Boot**, **React** com TypeScript e **Kubernetes**.\n\nCheguei ao desenvolvimento depois de oito anos em infraestrutura, e essa bagagem ainda molda o jeito como penso arquitetura, observabilidade e o que de fato mantém um sistema de pé.\n\nEscrevo aqui sobre decisões técnicas, o caminho até elas e o que aprendo liderando um time."
+    Content = "Desenvolvedor sênior e líder técnico em Florianópolis, trabalhando com **Java** e **Spring Boot**, **React** com TypeScript e **Kubernetes**.\n\nCheguei ao desenvolvimento depois de oito anos em infraestrutura, e essa bagagem ainda molda o jeito como penso arquitetura, observabilidade e o que de fato mantém um sistema de pé.\n\nEscrevo aqui sobre decisões técnicas, o caminho até elas e o que aprendo liderando um time."
 
 [en]
 label = "English"
@@ -26,4 +26,4 @@ title = "Maurício Sampaio"
 
     [en.params.homeInfoParams]
     Title = "Hi, I'm Maurício 👋"
-    Content = "Tech lead based in Florianópolis, Brazil, working with **Java** and **Spring Boot**, **React** with TypeScript, and **Kubernetes**.\n\nI came to software development after eight years in infrastructure, and that background still shapes how I think about architecture, observability, and what actually keeps a system running.\n\nI write here about technical decisions, the road that leads to them, and what I learn leading a team."
+    Content = "Senior developer and tech lead based in Florianópolis, Brazil, working with **Java** and **Spring Boot**, **React** with TypeScript, and **Kubernetes**.\n\nI came to software development after eight years in infrastructure, and that background still shapes how I think about architecture, observability, and what actually keeps a system running.\n\nI write here about technical decisions, the road that leads to them, and what I learn leading a team."
