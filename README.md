@@ -40,7 +40,7 @@ content/en/          Conteúdo em inglês
 archetypes/          Template de front matter para posts novos
 assets/css/extended/ CSS customizado (sobrescreve o tema)
 static/              Arquivos servidos como estão (favicon, imagens)
-themes/PaperMod/     Tema (submódulo git — não editar)
+themes/PaperMod/     Tema (submódulo git, não editar)
 .github/workflows/   Deploy automático
 ```
 
@@ -66,7 +66,7 @@ translationKey: "hello-world"
 translationKey: "hello-world"
 ```
 
-Posts sem par no outro idioma funcionam normalmente — só não mostram o link de tradução.
+Posts sem par no outro idioma funcionam normalmente, só não mostram o link de tradução.
 
 ### Front matter mais usado
 
@@ -86,7 +86,7 @@ Posts sem par no outro idioma funcionam normalmente — só não mostram o link 
 - **Título, descrição e texto da home:** `config/_default/languages.toml`
 - **Cores, ícones sociais, opções do tema:** `config/_default/params.toml`
 - **Menu do topo:** `config/_default/menus.<idioma>.toml`
-- **CSS próprio:** crie arquivos em `assets/css/extended/` — o PaperMod carrega
+- **CSS próprio:** crie arquivos em `assets/css/extended/`. O PaperMod carrega
   automaticamente, depois do CSS do tema
 - **Favicon:** coloque os arquivos em `static/` (os caminhos estão em `params.toml`)
 

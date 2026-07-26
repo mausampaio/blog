@@ -24,7 +24,7 @@ Alguns temas que devem aparecer por aqui:
 
 - Desenvolvimento de software no dia a dia
 - Ferramentas e automações que me economizam tempo
-- Anotações de estudo — o famoso "eu do futuro vai agradecer"
+- Anotações de estudo, o famoso "eu do futuro vai agradecer"
 
 ## Como este blog foi feito
 

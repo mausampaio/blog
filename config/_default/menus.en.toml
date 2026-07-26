@@ -1,4 +1,4 @@
-# URLs sem barra inicial de propósito — ver comentário em menus.pt-br.toml.
+# URLs sem barra inicial de propósito. Ver comentário em menus.pt-br.toml.
 
 [[main]]
 name = "Posts"

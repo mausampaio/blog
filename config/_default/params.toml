@@ -36,7 +36,7 @@ apple_touch_icon = "/apple-touch-icon.png"
 linkFullImages = true
 responsiveImages = true
 
-# Busca — o fastsearch.js do PaperMod usa Fuse.js
+# Busca: o fastsearch.js do PaperMod usa Fuse.js
 [fuseOpts]
 isCaseSensitive = false
 shouldSort = true

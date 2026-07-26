@@ -18,5 +18,9 @@ desktop.ini
 *.swp
 *~
 
+# Obsidian: o cofre aponta para content/, mas a config e o estado das janelas
+# sao locais e nao devem ser versionados
+.obsidian/
+
 # Configuração local do Claude Code
 .claude/settings.local.json

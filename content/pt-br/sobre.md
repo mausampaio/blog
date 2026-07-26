@@ -16,7 +16,7 @@ Florianópolis.
 Passei os primeiros oito anos da minha carreira em infraestrutura de TI, num grupo
 hospitalar na Bahia. Comecei como técnico de informática e saí de lá como analista de
 infraestrutura, cuidando de servidores, virtualização, redes, firewalls, backup e
-monitoramento — o tipo de trabalho em que você aprende, na marra, que todo sistema
+monitoramento. É o tipo de trabalho em que você aprende, na marra, que todo sistema
 eventualmente falha, e que a diferença está em quão rápido você descobre.
 
 Foi ali que peguei gosto por automação. Escrever scripts para não repetir a mesma tarefa
@@ -29,7 +29,7 @@ programação. Foi aqui que ela se concretizou: entrei no DevInHouse, programa d
 do SENAI em parceria com uma empresa de software. Ao final do curso, depois de um processo
 seletivo, dez de nós fomos contratados.
 
-Entrei como trainee em junho de 2021. De lá para cá subi todos os degraus — júnior, pleno
+Entrei como trainee em junho de 2021. De lá para cá subi todos os degraus: júnior, pleno
 e, desde 2024, sênior. Em 2023 assumi também a liderança técnica do time, que por lá é um
 papel e não um cargo: na carteira, sigo desenvolvedor.
 
@@ -38,7 +38,7 @@ professor, dando a matéria de Java para uma nova turma. Um ano antes, eu estava
 lado daquela sala.
 
 Hoje meus dias são uma mistura de arquitetura de software, decisões técnicas, mentoria e
-tradução — no sentido literal: transformar necessidade de negócio em solução técnica, e
+tradução, no sentido literal: transformar necessidade de negócio em solução técnica e
 explicar restrição técnica para quem não escreve código.
 
 Na prática, trabalho com:
@@ -63,7 +63,7 @@ ITIL Foundation, Zabbix Specialist e Professional.
 ## Por que este blog
 
 Escrever é como eu percebo que não entendi algo tão bem quanto achava. Aqui registro
-decisões técnicas e o raciocínio que levou até elas — inclusive as que eu tomaria
+decisões técnicas e o raciocínio que levou até elas, inclusive as que eu tomaria
 diferente hoje.
 
 Se algum texto te poupar algumas horas de investigação, o blog já valeu.
