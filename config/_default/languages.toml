@@ -3,27 +3,27 @@ label = "Português"
 locale = "pt-BR"
 contentDir = "content/pt-br"
 weight = 1
-title = "Mauricio Sampaio"
+title = "Maurício Sampaio"
 
   [pt-br.params]
-  description = "Blog pessoal sobre desenvolvimento, tecnologia e o que mais aparecer."
-  keywords = ["blog", "desenvolvimento", "tecnologia"]
+  description = "Blog de Maurício Sampaio, líder técnico em Florianópolis. Arquitetura de software, Java, React, Kubernetes e o que se aprende vindo da infraestrutura."
+  keywords = ["arquitetura de software", "liderança técnica", "tech lead", "java", "spring boot", "react", "kubernetes", "devops"]
 
     [pt-br.params.homeInfoParams]
-    Title = "Olá 👋"
-    Content = "Bem-vindo ao meu canto da internet. Escrevo sobre desenvolvimento de software, tecnologia e as coisas que ando aprendendo."
+    Title = "Olá, eu sou o Maurício 👋"
+    Content = "Tech lead em Florianópolis, trabalhando com **Java** e **Spring Boot**, **React** com TypeScript e **Kubernetes**.\n\nCheguei ao desenvolvimento depois de oito anos em infraestrutura, e essa bagagem ainda molda o jeito como penso arquitetura, observabilidade e o que de fato mantém um sistema de pé.\n\nEscrevo aqui sobre decisões técnicas, o caminho até elas e o que aprendo liderando um time."
 
 [en]
 label = "English"
 locale = "en-US"
 contentDir = "content/en"
 weight = 2
-title = "Mauricio Sampaio"
+title = "Maurício Sampaio"
 
   [en.params]
-  description = "Personal blog about software development, technology and whatever else comes up."
-  keywords = ["blog", "development", "technology"]
+  description = "Maurício Sampaio's blog — a tech lead in Florianópolis, Brazil. Software architecture, Java, React, Kubernetes, and what you learn coming from infrastructure."
+  keywords = ["software architecture", "technical leadership", "tech lead", "java", "spring boot", "react", "kubernetes", "devops"]
 
     [en.params.homeInfoParams]
-    Title = "Hi 👋"
-    Content = "Welcome to my corner of the internet. I write about software development, technology and the things I'm learning."
+    Title = "Hi, I'm Maurício 👋"
+    Content = "Tech lead based in Florianópolis, Brazil, working with **Java** and **Spring Boot**, **React** with TypeScript, and **Kubernetes**.\n\nI came to software development after eight years in infrastructure, and that background still shapes how I think about architecture, observability, and what actually keeps a system running.\n\nI write here about technical decisions, the road that leads to them, and what I learn leading a team."

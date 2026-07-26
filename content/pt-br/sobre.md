@@ -8,7 +8,7 @@ ShowShareButtons: false
 hidemeta: true
 ---
 
-Olá! Eu sou o Mauricio Sampaio.
+Olá! Eu sou o Maurício Sampaio.
 
 Este é meu blog pessoal, onde escrevo sobre desenvolvimento de software, tecnologia e
 outras coisas que chamam minha atenção.

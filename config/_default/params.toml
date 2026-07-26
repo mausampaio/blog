@@ -1,6 +1,6 @@
 # env = "production" habilita analytics/SEO extras do PaperMod
 env = "production"
-author = "Mauricio Sampaio"
+author = "Maurício Sampaio"
 DateFormat = "2 January 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -21,7 +21,7 @@ comments = false
 # O texto da home (homeInfoParams) fica em languages.toml, por idioma.
 
 [label]
-text = "Mauricio Sampaio"
+text = "Maurício Sampaio"
 icon = "/favicon.ico"
 iconHeight = 24
 
@@ -50,6 +50,10 @@ keys = ["title", "permalink", "summary", "content"]
 [[socialIcons]]
 name = "github"
 url = "https://github.com/mausampaio"
+
+[[socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/mausampaio/"
 
 [[socialIcons]]
 name = "rss"

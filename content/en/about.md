@@ -8,7 +8,7 @@ ShowShareButtons: false
 hidemeta: true
 ---
 
-Hi! I'm Mauricio Sampaio.
+Hi! I'm Maurício Sampaio.
 
 This is my personal blog, where I write about software development, technology and other
 things that catch my attention.
